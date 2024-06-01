@@ -6,7 +6,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
+firebase-key.json
 # IDE/Editor specific files
 .idea/
 .vscode/
