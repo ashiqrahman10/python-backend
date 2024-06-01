@@ -1,0 +1,11 @@
+Flask
+Flask-Cors
+python-dotenv
+Flask-MongoEngine
+pymongo
+google-generativeai
+aiohttp
+websockets
+urllib3
+firebase-admin
+google.generativeai
