@@ -1,7 +1,7 @@
-Flask
-Flask-Cors
+flask<2.3.0
+flask-Cors
 python-dotenv
-Flask-MongoEngine
+flask_mongoengine
 pymongo
 google-generativeai
 aiohttp
@@ -9,4 +9,4 @@ websockets
 urllib3
 firebase-admin
 google.generativeai
-dotenv
+python-dotenv 
