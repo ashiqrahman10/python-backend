@@ -6,7 +6,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-firebase-key.json
 # IDE/Editor specific files
 .idea/
 .vscode/
@@ -38,6 +37,7 @@ htmlcov/
 
 # Static files (manage these separately if needed)
 # static/
+firebase-key.json
 
 # Uploaded files
 # uploads/
