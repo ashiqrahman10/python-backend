@@ -9,3 +9,4 @@ websockets
 urllib3
 firebase-admin
 google.generativeai
+dotenv
