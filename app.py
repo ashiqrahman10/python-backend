@@ -12,6 +12,8 @@ import google.generativeai as gen_ai
 from flask_mongoengine import MongoEngine
 from functools import wraps
 from mongoengine.connection import disconnect
+from json import JSONEncoder
+
 
 
 
@@ -168,7 +170,7 @@ async def decode_auth_token(token: str) -> str | None:
 # --- Flask App Setup ---
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins=True, 
+CORS(app, supports_credentials=True, origins=True,
      exposed_headers=["set-cookie", "token"])
 app.config['MONGODB_SETTINGS'] = {
     'db': 'your_database_name',

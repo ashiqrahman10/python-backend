@@ -10,3 +10,4 @@ urllib3
 firebase-admin
 google.generativeai
 python-dotenv 
+string_similarity
