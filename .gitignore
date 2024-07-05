@@ -20,3 +20,5 @@ htmlcov/
 .mypy_cache
 firebase-key.json
 output/
+server2.py
+app.py
