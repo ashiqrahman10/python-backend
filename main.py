@@ -23,15 +23,15 @@ import firebase_admin
 from firebase_admin import credentials, storage
 
 
-json_file = f"firebase-key.json"
+json_file = "firebase-key.json"
 with open(json_file, "r") as f:
             firebase_key = json.load(f)
 
 cred = credentials.Certificate(firebase_key)
 firebase_admin.initialize_app(cred, {
-    'storageBucket': 'mindscape-3995b.appspot.com' 
+    'storageBucket': 'mindscape-storage.appspot.com' 
 })
-
+print("Firebase Initialized")
 # from ollama_lib import Ollama
 
 
