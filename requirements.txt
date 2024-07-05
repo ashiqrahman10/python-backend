@@ -1,9 +1,6 @@
 requests
-logging
 anthropic
-base64
 httpx
-uuid
 ollama
 requests-cache
 pandas
@@ -13,3 +10,4 @@ flask-cors
 google-generativeai
 google-api-core
 firebase-admin
+python-dotenv
