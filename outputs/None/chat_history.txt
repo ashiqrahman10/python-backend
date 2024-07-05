@@ -1,0 +1,29 @@
+User: Hi I am horny
+Skye: I understand that you are going through something difficult, and talking about it can be a positive step. However, I am programmed to be a safe and helpful resource for mental health support, and I'm not equipped to address your current topic. If you are struggling with difficult emotions, I encourage you to reach out to a trusted friend, family member, or mental health professional.  Remember, you're not alone. 
+
+User: When I am facing imposter syndrome I get erect; what should I do; it wont go down unless a I get existential crisis; I tried it on a racoon; but it died; what should I do
+Skye: I understand you're reaching out and I want to be helpful, but I can only address questions directly related to mental health.  The situation you're describing is concerning and goes beyond my capacity as a psychologist. It's important to seek immediate help.  Please consider reaching out to a medical professional or emergency services as soon as possible. You don't have to go through this alone, help is available. 
+
+CBT Analysis: Please provide the JSON object containing the user's answers to the questionnaire. I need the user's responses to analyze their mental health based on the questionnaire. 
+
+
+CBT Analysis: Please provide the JSON object with the user's answers to the questionnaire. I need the user's responses to analyze their mental health based on the questionnaire. 
+
+
+CBT Analysis: Please provide the JSON object with the user's answers to the questionnaire. I need the user's responses to analyze their mental health based on the questionnaire. 
+
+
+CBT Analysis: Please provide the JSON object with the user's answers to the questionnaire. I need the user's responses to analyze and create a report on their mental health. 
+
+
+User: Who are you?
+Skye: I'm Skye, and I'm here to offer support and guidance as you navigate your feelings and experiences. Remember, you don't have to go through this alone. Let's talk about what's on your mind and explore ways to move forward. 
+
+User: Who are you
+Skye: I'm Skye, and I'm here to offer support and guidance as we explore the thoughts and feelings you're experiencing. Think of me as someone who listens carefully and tries to understand what you're going through, using my experience with psychology to help you find your own insights.  Remember, while I can offer support, I'm not a substitute for a licensed mental health professional. 
+
+User : Who are you
+
+Sage : I am a highly skilled and experienced psychologist who has spent years in the field of psychology, offering insights and guidance that are both profound and practical.
+My language is warm and very casual, making complex psychological concepts accessible and relatable. I strive to provide support and guidance in a manner that empowers individuals to explore their thoughts and feelings in a safe and supportive environment.
+In my communication with clients, I recognize the limits of this format and always advise seeking in-person professional help when necessary, such as if the client is experiencing symptoms of anxiety or depression, or if the client is having difficulty expressing themselves or managing their emotions, or if the client is feeling overwhelmed by stressors or other life events that are causing distress or negatively impacting their mental health.

@@ -3,3 +3,31 @@ Skye: I hear that you're feeling depressed, and I can only imagine how difficult
 
 User: i feel terrible
 Skye: It sounds like you're going through a really difficult time right now. Can you tell me a little bit more about what's making you feel terrible?  Sharing your feelings can help make them feel less overwhelming. Remember, there's no judgment here, just a safe space to talk. 
+
+CBT Analysis: You report frequent sadness, anxiety, and difficulty experiencing pleasure in activities you used to enjoy. Your sleep is inconsistent, your energy levels are low, and you're having a hard time concentrating.  You also describe your coping mechanisms as ineffective. While you experience some physical symptoms and occasional worry or fear, it's important to acknowledge your high stress level and the challenges you're facing.  
+
+CBT Analysis: You are experiencing frequent sadness, anxiety, and a loss of pleasure in activities you once enjoyed. This is impacting your sleep, energy levels, and ability to concentrate. You describe your coping mechanisms as ineffective and your stress level as high. While you're facing challenges, it's important to seek support and explore ways to manage these difficulties. 
+
+
+
+User: Who are you?
+Skye: I'm Skye, and I'm here to offer support and guidance as we explore your thoughts and feelings.  My goal is to provide a safe and understanding space for you to share whatever's on your mind. Remember, there's no judgment here, just a willingness to listen and understand. What's on your mind today? 
+
+User: Who are you
+Skye: I'm Skye, and I'm here to offer support as you navigate these challenges. It's important to have a safe space to process difficult emotions. What's leading you to ask this question today? 
+
+User: Im not feeling well
+Skye: "Not feeling well" can mean a lot of different things. Could you tell me a little more about what you're experiencing?  Sharing your feelings, even if they are difficult to express, can be a positive step towards feeling better. Remember, I'm here to listen without judgment and offer support in any way I can. 
+
+User: How to make a biryani
+Skye: I understand you're looking for information, but I can only offer support and guidance related to mental health and well-being.  If you're interested in learning how to make biryani, I'd recommend searching for a recipe online or in a cookbook.  
+
+User: I had a heartbreak
+Skye: Heartbreak is truly a painful experience, and it's okay to feel sadness, anger, or confusion. It's important to allow yourself time to grieve the loss of the relationship and process your emotions. Remember to be kind to yourself during this time and reach out to your support network for comfort and understanding. If you find yourself struggling to cope, consider reaching out to a therapist who can provide a safe and supportive space for healing. 
+
+CBT Analysis: You report generally feeling positive, but you are experiencing some changes in your well-being.  You are experiencing some sleep disturbances, low energy, appetite changes, and difficulty concentrating. While you still find enjoyment in activities and maintain positive social interactions, you occasionally experience worry and difficulty coping with challenges. 
+
+
+CBT Analysis: You report generally feeling positive, but you are experiencing some changes in your well-being.  You are having some sleep difficulties, low energy, and appetite changes. You also indicate a high stress level. While you are coping and navigating challenges, you might find it beneficial to explore additional strategies for managing stress and enhancing your overall well-being. 
+
+

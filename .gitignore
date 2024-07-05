@@ -1,4 +1,3 @@
-# Python environment
 .env
 venv
 venv/
@@ -6,38 +5,18 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-# IDE/Editor specific files
 .idea/
 .vscode/
-
-# Database files
 *.sqlite3
 local.db
-
-# Log files
 *.log
-
-# System files
 .DS_Store
 Thumbs.db
-
-# Operating system temporary files
 *.tmp
-
-# Build artifacts
 dist/
 build/
-
-# Unit test coverage reports
 .coverage
 htmlcov/
-
-# MyPy cache
 .mypy_cache
-
-# Static files (manage these separately if needed)
-# static/
 firebase-key.json
-
-# Uploaded files
-# uploads/
+output/
