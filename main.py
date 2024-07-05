@@ -23,9 +23,8 @@ import firebase_admin
 from firebase_admin import credentials, storage
 
 
-json_file = f"firebase-key.json"
-with open(json_file, "r") as f:
-            firebase_key = json.load(f)
+json_file = os.environ.get("FIREBASE_KEY")
+firebase_key = json.load(json_file)
 
 cred = credentials.Certificate(firebase_key)
 firebase_admin.initialize_app(cred, {
@@ -145,6 +144,7 @@ def chatgemini():
         f.write(f"User: {messages_str}\nSkye: {response.text}\n")
     
     upload_to_firebase(f"outputs/{uid}/chat_history.txt", uid, "chat_history.txt")
+    print("Uploaded to firebase\n")
 
     response_obj = jsonify(response.text)
     response_obj.headers.add('Access-Control-Allow-Origin', '*')
