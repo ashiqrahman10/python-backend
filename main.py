@@ -23,10 +23,9 @@ import firebase_admin
 from firebase_admin import credentials, storage
 
 
-json_file = os.environ.get("FIREBASE_KEY")
-firebase_key = json.load(json_file)
-# firebase_key = os.environ.get("firebase_key")
-print(firebase_key)
+json_file = f"firebase-key.json"
+with open(json_file, "r") as f:
+            firebase_key = json.load(f)
 
 cred = credentials.Certificate(firebase_key)
 firebase_admin.initialize_app(cred, {
