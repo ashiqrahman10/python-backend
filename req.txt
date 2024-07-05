@@ -1,0 +1,10 @@
+Flask
+Flask-Cors
+anthropic
+httpx
+openmeteo-requests
+ollama
+pandas
+requests
+requests-cache
+retry-requests
