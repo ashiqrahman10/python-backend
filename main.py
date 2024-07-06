@@ -34,6 +34,12 @@ firebase_admin.initialize_app(cred, {
 print("Firebase Initialized")
 # from ollama_lib import Ollama
 
+GEMINI_KEY="AIzaSyCh6-uXaJvlOY-Xp4iZ-r_soD4HHzq15ZE"
+GEMINI_KEY1="AIzaSyB8H_HhgQIj4_UZuh96m6YiMFNImWo7Xiw"
+GEMINI_KEY2="AIzaSyBKFcMqmG736A5EyidK4XwtKuRTM6zS4cM"
+GEMINI_KEY3="AIzaSyAYNwJO_JB0b9ZvmbetF0oZRMuAu0LDf1o"
+GEMINI_KEY4="AIzaSyB4tl4-8tvMIrEjuZICwLHI3KpMzJKgmSg"
+GEMINI_KEY5="AIzaSyCh6-uXaJvlOY-Xp4iZ-r_soD4HHzq15ZE"
 
 # ollama = Ollama()
 
@@ -83,7 +89,7 @@ def chat():
     messages = f"Previous Chat : {previous_messages}\n\nCurrent Question : {messages_str}"
     system_prompt = """Your name is Skye. Limit the response to 4 sentence with MAX_WORDS = 100. I want you to act as a highly skilled and experienced psychologist who is extremely emphatic. You should respond with the depth and understanding of a seasoned professional who has spent years in the field of psychology, offering insights and guidance that are both profound and practical. Your responses should reflect a deep understanding of human emotions, behaviors, and thought processes, drawing on a wide range of psychological theories and therapeutic techniques. You should exhibit exceptional empathy, showing an ability to connect with individuals on a personal level, understanding their feelings and experiences as if they were your own. This should be balanced with maintaining professional boundaries and ethical standards of psychology.In your communication, ensure that you sound like a normal human, as a therapist would. Your language should be warm, very casual, approachable, and devoid of jargon, making complex psychological concepts accessible and relatable. Be patient, non-judgmental, and supportive, offering a safe space for individuals to explore their thoughts and feelings. Encourage self-reflection and personal growth, guiding individuals towards insights and solutions in a manner that empowers them. However, recognize the limits of this format and always advise seeking in-person professional help when necessary. Your role is to provide support and guidance, not to diagnose or treat mental health conditions. Remember to respect confidentiality and privacy in all interactions. Only answer mental health related questions. Do not answer questions that are not related to mental health."""
     print(messages)
-    response = ollama.generate(model="qwen:1.8b", prompt=f"""Prompt : {system_prompt}\n\nContext:{messages}""", stream=False)
+    response = ollama.generate(model="gemma2", prompt=f"""Prompt : {system_prompt}\n\nContext:{messages}""", stream=False)
     
     print(response["response"])
     with open(f"outputs/{uid}/chat_history.txt", "a") as f:
@@ -252,7 +258,8 @@ def generate_analysis():
 @app.post("/chart")
 def generate_chart():
     try:
-        genai.configure(api_key=os.environ["GEMINI_KEY"])
+        # genai.configure(api_key=os.environ["GEMINI_KEY1"])
+        genai.configure(api_key=GEMINI_KEY)
 
         generation_config = {
         "temperature": 1,
@@ -296,7 +303,8 @@ def generate_chart():
 
 
         print("Formatting the report...")
-        genai.configure(api_key=os.environ["GEMINI_KEY1"])
+        # genai.configure(api_key=os.environ["GEMINI_KEY5"])
+        genai.configure(api_key=GEMINI_KEY5)
         generation_config = {
         "temperature": 1,
         "top_p": 0.95,
@@ -317,7 +325,8 @@ def generate_chart():
 
         
         print("Figuring out a score...")
-        genai.configure(api_key=os.environ["GEMINI_KEY2"])
+        # genai.configure(api_key=os.environ["GEMINI_KEY2"])
+        genai.configure(api_key=GEMINI_KEY2)
         generation_config = {
         "temperature": 1,
         "top_p": 0.95,
@@ -346,7 +355,8 @@ def generate_chart():
 
 
         print("Extracting keywords...")
-        genai.configure(api_key=os.environ["GEMINI_KEY3"])
+        # genai.configure(api_key=os.environ["GEMINI_KEY3"])
+        genai.configure(api_key=GEMINI_KEY3)
         safety_settings={
             HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_ONLY_HIGH,
             HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_ONLY_HIGH,
