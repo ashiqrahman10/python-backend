@@ -143,6 +143,22 @@ def chatgemini():
     # Save and Return Response
     with open(chat_history_file, "a") as f:
         f.write(f"User: {messages_str}\nSkye: {response.text}\n")
+
+    json_file = f"outputs/{uid}/chat_history.json"
+
+    os.makedirs(f"outputs/{uid}", exist_ok=True)
+
+    try:
+        with open(json_file, "r") as f:
+            existing_data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        existing_data = []
+
+    new_data = {"user": messages_str, "response": response.text}
+    existing_data.append(new_data)
+
+    with open(json_file, "w") as f:
+        json.dump(existing_data, f, indent=2)
     
     upload_to_firebase(f"outputs/{uid}/chat_history.txt", uid, "chat_history.txt")
     print("Uploaded to firebase\n")
@@ -423,6 +439,16 @@ def questions():
     # existing_data.headers.add('Access-Control-Allow-Origin', '*')
     return existing_data
 
+@app.post("/get-history")
+def history():
+    uid = request.json.get("uid")
+    json_file = f"outputs/{uid}/chat_history.json"
+    with open(json_file, "r") as f:
+                existing_data = json.load(f)
+    
+    # existing_data.headers.add('Access-Control-Allow-Origin', '*')
+    return jsonify(existing_data)
+
 @app.post("/get-analysis")
 def cbt():
     questions = request.json.get("questions")
@@ -492,7 +518,7 @@ def cbt():
 
 @app.get("/")
 def home():
-    return "Welcome to the Health AI API"
+    return "Welcome to the Mental Health API"
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 3000)))  # Listen on all interfaces
