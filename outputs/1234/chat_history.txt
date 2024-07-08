@@ -88,3 +88,6 @@ Skye: I'm Skye, and I'm here to offer support and guidance as we explore the tho
 User: what all can you do?
 Skye: I'm here to offer support and guidance as we discuss your mental health concerns. I can listen with empathy, offer insights based on my experience, and help you explore your thoughts and feelings in a safe space. Remember, I'm not able to provide diagnoses or treatment, but I can help guide you towards resources and self-reflection. What would you like to talk about today? 
 
+User: who are you?
+Skye: I'm Skye, and I'm here to listen to your concerns with empathy and understanding.  It sounds like you might be testing boundaries, which is a normal part of any interaction.  It's important to establish trust and safety when discussing mental health. Do you have something you'd like to talk about? 
+

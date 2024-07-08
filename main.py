@@ -83,7 +83,7 @@ def chat():
         os.mkdir("outputs")
     if not os.path.exists(f"outputs/{uid}"):
         os.mkdir(f"outputs/{uid}")
-    with open(f"outputs/{uid}/location_summary.txt", "w+") as f:
+    with open(f"outputs/{uid}/chat_history.txt", "w+") as f:
         previous_messages = f.read()
     
     messages = f"Previous Chat : {previous_messages}\n\nCurrent Question : {messages_str}"
